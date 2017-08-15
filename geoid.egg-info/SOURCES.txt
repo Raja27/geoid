@@ -1,0 +1,8 @@
+README.rst
+setup.py
+geoid.egg-info/PKG-INFO
+geoid.egg-info/SOURCES.txt
+geoid.egg-info/dependency_links.txt
+geoid.egg-info/entry_points.txt
+geoid.egg-info/requires.txt
+geoid.egg-info/top_level.txt

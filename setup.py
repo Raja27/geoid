@@ -17,18 +17,18 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='audiofilearranger',
+    name='geoid',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.1.1',
+    version='0.1.0',
 
-    description='Audio file arranger',
+    description='Compare the place based on google place id',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/Raja27/Audio-File-arranger.git',
+    url='https://github.com/Raja27/geoid.git',
 
     # Author details
     author='MRP DevShort',
@@ -77,7 +77,7 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['eyeD3'],
+    install_requires=['requests', 'googlemaps'],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
@@ -110,7 +110,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'sample=Afa:afa',
+            'sample=geoid:geoid',
         ],
     },
 )

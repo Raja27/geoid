@@ -1,0 +1,8 @@
+requests
+googlemaps
+
+[dev]
+check-manifest
+
+[test]
+coverage
